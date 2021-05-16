@@ -1,5 +1,5 @@
 baseURL: https://www.ben-p.dev/
-theme: pure
+theme: hugo-theme-pure
 title: Ben Petterborg
 copyright: CC BY 4.0 CN
 defaultContentLanguage: en  # en/zh/...
@@ -11,6 +11,26 @@ PygmentsCodeFences: false
 #googleAnalytics: ""      # UA-XXXXXXXX-X 
 permalinks:
   posts: /p/:filename/ #/:year/:month/:filename/
+
+keywords: [
+  "blog",
+  "developer",
+  "personal",
+  "sysadmin",
+  "devops",
+  "networking",
+  "ben petterborg",
+  "ben p",
+  "petterborg",
+  "bpetterborg",
+  "benjamin petterborg",
+  "benjamin",
+  "ben peterborg",
+  "benjamin peterborg",
+  "peterborg",
+  "benjamin p"
+  ]
+
 
 ignoreErrors: ["error-remote-getjson"]
 publishDir: /docs
