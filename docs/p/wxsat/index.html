@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        Pull Images Directly from NOAA Weather Satellites - Ben Petterborg
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="Satellite reception on inexpensive equipment" />
+    <meta name="generator" content="Hugo 0.82.1 with theme pure" />
+    <title>Pull Images Directly from NOAA Weather Satellites - Ben Petterborg</title>
+    
+    
+    <link rel="stylesheet" href="https://www.ben-p.dev/css/style.min.b4b742918d33349bb411274c2c6de779fe2fda4d2101d2703f6bc0fc0a19edf2.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Pull Images Directly from NOAA Weather Satellites" />
+<meta property="og:description" content="Satellite reception on inexpensive equipment" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ben-p.dev/p/wxsat/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-05-12T20:00:00-04:00" />
+<meta property="article:modified_time" content="2021-05-12T20:00:00-04:00" />
+
+
+<meta itemprop="name" content="Pull Images Directly from NOAA Weather Satellites">
+<meta itemprop="description" content="Satellite reception on inexpensive equipment"><meta itemprop="datePublished" content="2021-05-12T20:00:00-04:00" />
+<meta itemprop="dateModified" content="2021-05-12T20:00:00-04:00" />
+<meta itemprop="wordCount" content="477">
+<meta itemprop="keywords" content="wxsat,amsat,noaa apt,nasa,radio," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pull Images Directly from NOAA Weather Satellites"/>
+<meta name="twitter:description" content="Satellite reception on inexpensive equipment"/>
+
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+  </head>
+
+  
+  
+
+  <body class="main-center theme-blue" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://github.com/bpetterborg" target="_blank">
+            <img class="img-circle img-rotate" src="https://en.gravatar.com/userimage/203931553/190d07643fbcffaddc31b28d13e2e0ae.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Ben Petterborg</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Aspiring Software Developer and Sysadmin</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Toledo, Ohio</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-archives">
+                <a href="/posts/">
+                    <i class="icon icon-archives-fill"></i>
+                  <span class="menu-title">Archives</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories/">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags/">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-resume">
+                <a href="/resume/">
+                    <i class="icon icon-profile"></i>
+                  <span class="menu-title">Resume</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-about">
+                <a href="/about/">
+                    <i class="icon icon-cup-fill"></i>
+                  <span class="menu-title">About</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://www.ben-p.dev/categories/code/" class="category-list-link">code</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://www.ben-p.dev/categories/homelab/" class="category-list-link">homelab</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://www.ben-p.dev/categories/networking/" class="category-list-link">networking</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://www.ben-p.dev/categories/weather-satellites/" class="category-list-link">weather-satellites</a><span class="category-list-count">1</span></li>
+        </ul>
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://www.ben-p.dev/p/wxsat/" class="title">Pull Images Directly from NOAA Weather Satellites</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-05-12 20:00:00 -0400 EDT" itemprop="datePublished">2021-05-12</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://www.ben-p.dev/p/radio-monitor/" class="title">P25 Radio Monitor</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-04-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-04-20</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://www.ben-p.dev/p/homelab/" class="title">My Homelab</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">2021-03-27</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://www.ben-p.dev/p/github-pages-hugo/" class="title">Host Hugo w/ Github Pages</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-25 18:53:44 -0400 EDT" itemprop="datePublished">2021-03-25</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-apt-reception" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/p/wxsat/"
+    >Pull Images Directly from NOAA Weather Satellites</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://www.ben-p.dev/p/wxsat/" class="article-date">
+  <time datetime="2021-05-12 20:00:00 -0400 EDT" itemprop="datePublished">2021-05-12</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/weather-satellites/"> Weather Satellites </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/wxsat/"> wxsat </a>
+    <a class="article-tag-link" href="/tags/amsat/"> amsat </a>
+    <a class="article-tag-link" href="/tags/noaa-apt/"> noaa apt </a>
+    <a class="article-tag-link" href="/tags/nasa/"> nasa </a>
+    <a class="article-tag-link" href="/tags/radio/"> radio </a>
+  </span>
+
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 477 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 3 minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <h1 id="table-of-contents">Table of Contents</h1>
+<ol>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#getting-started">Getting Started</a></li>
+<li><a href="#receiving">Receiving</a></li>
+<li><a href="#decoding">Decoding</a></li>
+<li><a href="#what-to-do-next">What to do Next</a></li>
+<li><a href="#additional-resources">Additional Resources</a></li>
+</ol>
+<h2 id="introduction">Introduction</h2>
+<p>NOAA has weather satellites that are easy to receive with basic and inexpensive
+equipment. This guide will show how to receive and decode the downlink of these
+satellites.</p>
+<p>Roscosmos also operates METEOR satellites, which are relatively easy to receive
+and decode, which can be done with the same hardware, however this guide will 
+not detail how to do this.</p>
+<p>We will be using NOAA-15, NOAA-18, and NOAA-19, on the APT downlink as these
+are analog FM with a λ = ~2.2 meters, which is very easy to work with.</p>
+<h2 id="getting-started">Getting Started</h2>
+<h3 id="software">Software</h3>
+<p>You will need an SDR program, like <a href="https://cubicsdr.com/">CubicSDR</a> 
+(which I will be using for this), however other programs, such as 
+<a href="https://gqrx.dk/">GQRX</a>, <a href="https://airspy.com/download/">SDR#</a>, 
+<a href="https://github.com/AlexandreRouma/SDRPlusPlus">SDR++</a>, 
+or <a href="https://batchdrake.github.io/SigDigger/">SigDigger</a> will also work.</p>
+<p>If you are using an Android phone or tablet, I recommend 
+<a href="https://play.google.com/store/apps/details?id=com.mantz_it.rfanalyzer&amp;hl=en_US&amp;gl=US">RF-Analyzer</a></p>
+<p>You will also need a program to decode the audio. I will use 
+<a href="https://noaa-apt.mbernardi.com.ar/">NOAA APT</a></p>
+<h3 id="hardware">Hardware</h3>
+<p>I recommend the 
+<a href="https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/">RTL-SDR kit</a>, it as a
+adjustable and portable dipole antenna, an RG-174 extension cable, and the
+dongle itself.</p>
+<p>You will also need a laptop, an Android phone, or a tablet. Brighter screens
+are better since you will be outside.</p>
+<h2 id="receieving">Receieving</h2>
+<p>A few minutes before the satellite will be above, setup your antenna. Each 
+element of the dipole should be ~53cm long, 120° apart, with &lsquo;V&rsquo; facing south. 
+The center conductor of the coax should be connected to the element facing
+right. If it&rsquo;s not, simply flip the antenna over.</p>
+<p>Open CubicSDR and select 
+RTL2832U, RTL-SDR, or something else that starts with &lsquo;Realtek&rsquo;. Tune your 
+receiver to the appropriate satellite, per the table below.</p>
+<table>
+<thead>
+<tr>
+<th>Satellite</th>
+<th>Freq. (MHz)</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NOAA-15</td>
+<td>137.61</td>
+<td></td>
+</tr>
+<tr>
+<td>NOAA-18</td>
+<td>137.91</td>
+<td></td>
+</tr>
+<tr>
+<td>NOAA-19</td>
+<td>137.1</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Set the demodulator to WFM (Wide FM), and the receive bandwidth to ~40kHz, to
+account for doppler shift.</p>
+<p>Under recording, set the path, and the squelch to &lsquo;Record Always&rsquo;. Begin the
+recording ~1 minute before the satellite will pass over. It&rsquo;ll take ~15min, so
+have something to keep yourself occupied.</p>
+<p>Once the satellite passes over the horizon and the signal fades away, you can
+go ahead and stop the recording.</p>
+<h2 id="decoding">Decoding</h2>
+<p>Open NOAA APT and open your file. You can skip through the rest of the menus,
+then save the image.</p>
+<p>Congrats! You&rsquo;ve pulled images directly from weather satellites in orbit!</p>
+<h2 id="what-to-do-next">What to do Next</h2>
+<p>If you enjoyed this, you may also want to try receiving METEOR, GOES, or HRPT.
+These both use digital downlinks, which are a bit harder to work with, however
+they provide much higher-resolution color imagery.</p>
+<p>GOES satellites are in geostationary orbits, which allow them to provide &lsquo;full-
+disk&rsquo; (i.e. a picture of the whole earth).</p>
+<p>Amateur satcom is a fun hobby and gives you bragging rights to say you&rsquo;ve
+downloaded images directly off of weather satellites in orbit.</p>
+<h2 id="additional-resources">Additional Resources</h2>
+<p><a href="/docs/wxsat_lesson_plan.pdf">Lesson Plan</a>
+<a href="https://rtl-sdr.com">RTL-SDR Blog</a></p>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://www.ben-p.dev/p/wxsat/" title="Pull Images Directly from NOAA Weather Satellites" target="_blank" rel="external">https://www.ben-p.dev/p/wxsat/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License: </strong>
+        <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/bpetterborg" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://en.gravatar.com/userimage/203931553/190d07643fbcffaddc31b28d13e2e0ae.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/bpetterborg" target="_blank"><span class="text-dark">Ben Petterborg</span><small class="ml-1x">Aspiring Software Developer and Sysadmin</small></a></h3>
+        <div></div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+    </div>
+  </article>
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://www.ben-p.dev/p/radio-monitor/" title="P25 Radio Monitor"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+        </div>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/bpetterborg" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://www.ben-p.dev/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/ben_petterborg" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2019  -
+    2021
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/python.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/javascript.min.js" defer></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="https://www.ben-p.dev/js/application.min.a94ab19cb63a95c8d7fbd7b85cab3ddeea8c369bdf75b9cab6708787ead123af.js"></script>
+<script src="https://www.ben-p.dev/js/plugin.min.19c5bcb2fb0789ab4f2b7834e5ceb5e92635645605bab902c1024b25f1502364.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/www.ben-p.dev\/',
+            CONTENT_URL: 'https:\/\/www.ben-p.dev\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://www.ben-p.dev/js/insight.min.4a2d52de4bfff73e0c688404fe3d17c9a3ae12d9888e1e1ac9c690e4890de2ded50fe55f2b819c2ba55435a76f396f3ea6805765f0b0af5635cdf74ea459eab0.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+
+  </body>
+</html>
