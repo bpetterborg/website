@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://www.ben-p.dev"
 theme: hugo-theme-pure
 title: Ben Petterborg
 copyright: CC BY 4.0 CN
