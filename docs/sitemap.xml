@@ -3,224 +3,224 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/amsat/</loc>
+    <loc>/website/tags/amsat/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/website/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/website/categories/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/nasa/</loc>
+    <loc>/website/tags/nasa/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/noaa-apt/</loc>
+    <loc>/website/tags/noaa-apt/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>/website/posts/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/p/wxsat/</loc>
+    <loc>/website/p/wxsat/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/radio/</loc>
+    <loc>/website/tags/radio/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/series/</loc>
+    <loc>/website/series/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/website/tags/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/series/weather-satellites/</loc>
+    <loc>/website/series/weather-satellites/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/weather-satellites/</loc>
+    <loc>/website/categories/weather-satellites/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/wxsat/</loc>
+    <loc>/website/tags/wxsat/</loc>
     <lastmod>2021-05-12T20:00:00-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/code/</loc>
+    <loc>/website/categories/code/</loc>
     <lastmod>2021-03-25T18:53:44-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/coding/</loc>
+    <loc>/website/tags/coding/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/homelab/</loc>
+    <loc>/website/categories/homelab/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/linux/</loc>
+    <loc>/website/tags/linux/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/p/radio-monitor/</loc>
+    <loc>/website/p/radio-monitor/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/rtl-sdr/</loc>
+    <loc>/website/tags/rtl-sdr/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/homelab/</loc>
+    <loc>/website/tags/homelab/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/p/homelab/</loc>
+    <loc>/website/p/homelab/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/networking/</loc>
+    <loc>/website/tags/networking/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/networking/</loc>
+    <loc>/website/categories/networking/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/sysadmin/</loc>
+    <loc>/website/tags/sysadmin/</loc>
     <lastmod>2020-03-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/series/github-pages/</loc>
+    <loc>/website/series/github-pages/</loc>
     <lastmod>2021-03-25T18:53:44-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/github-pages/</loc>
+    <loc>/website/tags/github-pages/</loc>
     <lastmod>2021-03-25T18:53:44-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/p/github-pages-hugo/</loc>
+    <loc>/website/p/github-pages-hugo/</loc>
     <lastmod>2021-03-25T18:53:44-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/series/hugo/</loc>
+    <loc>/website/series/hugo/</loc>
     <lastmod>2021-03-25T18:53:44-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/hugo/</loc>
+    <loc>/website/tags/hugo/</loc>
     <lastmod>2021-03-25T18:53:44-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/website/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/resume/</loc>
+    <loc>/website/resume/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/index/</loc>
+    <loc>/website/tags/index/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ben Petterborg</title>
-    <link>/tags/</link>
+    <link>/website/tags/</link>
     <description>Recent content in Tags on Ben Petterborg</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>CC BY 4.0 CN</copyright>
     <lastBuildDate>Wed, 12 May 2021 20:00:00 -0400</lastBuildDate>
     
-        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/website/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Pull Images Directly from NOAA Weather Satellites</title>
-      <link>/p/wxsat/</link>
+      <link>/website/p/wxsat/</link>
       <pubDate>Wed, 12 May 2021 20:00:00 -0400</pubDate>
       
-      <guid>/p/wxsat/</guid>
+      <guid>/website/p/wxsat/</guid>
       <description>Table of Contents  Introduction Getting Started Receiving Decoding What to do Next Additional Resources  Introduction NOAA has weather satellites that are easy to receive with basic and inexpensive equipment. This guide will show how to receive and decode the downlink of these satellites.
 Roscosmos also operates METEOR satellites, which are relatively easy to receive and decode, which can be done with the same hardware, however this guide will not detail how to do this.</description>
     </item>
     
     <item>
       <title>P25 Radio Monitor</title>
-      <link>/p/radio-monitor/</link>
+      <link>/website/p/radio-monitor/</link>
       <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/p/radio-monitor/</guid>
+      <guid>/website/p/radio-monitor/</guid>
       <description>Heads up This project is incomplete, while certain parts are functional, don&amp;rsquo;t expect it all to work. Content on this page may also change, as stuff is added and changed.
 Table of Contents  Introduction Commands For Civil Air Patrol Members  What it does This bot listens for P25-encoded radio traffic and rebroadcasts it over discord. This project what originally build for the Ohio Wing Civil Air Patrol&amp;rsquo;s Emergency Services, for squardons with less funding to be able to still monitor radio traffic.</description>
     </item>
     
     <item>
       <title>My Homelab</title>
-      <link>/p/homelab/</link>
+      <link>/website/p/homelab/</link>
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/p/homelab/</guid>
+      <guid>/website/p/homelab/</guid>
       <description>Hardware   Servers
  Dell R710 II  Dual Xeon X5670s 32GiB RAM      Networking
   Switches
@@ -47,10 +47,10 @@ Table of Contents  Introduction Commands For Civil Air Patrol Members  What it d
     
     <item>
       <title>Host Hugo w/ Github Pages</title>
-      <link>/p/github-pages-hugo/</link>
+      <link>/website/p/github-pages-hugo/</link>
       <pubDate>Thu, 25 Mar 2021 18:53:44 -0400</pubDate>
       
-      <guid>/p/github-pages-hugo/</guid>
+      <guid>/website/p/github-pages-hugo/</guid>
       <description>Table of Contents  Introduction Getting Started Prepare your environment Building your site  Introduction I had a bit of difficulty setting up Hugo to work with Github Pages, so I decided to document how I was able to make it work.
 Getting Started This guide assumes you already have a Hugo site. If you do not, you can learn how to here.
 You will also need a Github Pages repo setup, these are pretty simple, and you can use this guide.</description>
@@ -58,10 +58,10 @@ You will also need a Github Pages repo setup, these are pretty simple, and you c
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>/website/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/website/about/</guid>
       <description>I’m a high school student studying software development, data science, systems administration, and other related stuff.
 What I do:
  Build, setup, and configure servers Install and configure networking equipment Manage hypervisors, and docker/k8s/rancher instances Create usable software Learn whatever technology is needed to complete a job  In my free time, I also do satellite reception, 3D printing, and other nerd stuff that you will see here.
@@ -70,10 +70,10 @@ Thanks for reading!</description>
     
     <item>
       <title>Resume</title>
-      <link>/resume/</link>
+      <link>/website/resume/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/resume/</guid>
+      <guid>/website/resume/</guid>
       <description>Qualifications  US Amateur Radio Technician&amp;rsquo;s License ECSI Adult, Child, &amp;amp; Infant CPR &amp;amp; AED, Standard First Aid FEMA IS100 FEMA IS700  Languages  Python - 1 year C++ (Arduino/ESP32) - 1 year Bash - 6+ years HTML w/ CSS - 2+ years  Experience   Linux
  Strong experience in the command line Configuring permissions for users and groups Updating, configuring, remotely managing and repairing systems. Experience with Debian/Ubuntu, Alpine, CentOS, and Arch-based distributions.</description>
     </item>
