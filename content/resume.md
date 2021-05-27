@@ -15,10 +15,13 @@ author = "Ben Petterborg"
 ### Languages
   - Python - 1 year
   - C++ (Arduino/ESP32) - 1 year
+  - C# - 1 year
   - Bash - 6+ years
   - HTML w/ CSS - 2+ years
 
+
 ### Experience
+
   - Linux
     - Strong experience in the command line
     - Configuring permissions for users and groups
@@ -26,10 +29,21 @@ author = "Ben Petterborg"
     - Experience with Debian/Ubuntu, Alpine, CentOS,
       and Arch-based distributions.
 
+
   - Programming/Scripting
-    - Google Cloud Speech Recognition, Matplot, Flask, Gpiozero, etc.
-    - Python apps and scripts
+    - Python
+        - Scripting/automating tedious work
+        - Libraries/Frameworks
+            - Google Cloud Speech Recognition, Matplotlib, 
+            Flask, Gpiozero, Serial, Requests, etc.
+    - Bash
+      - Scripting tedious work
+      - Automatically configuring and updating machines
+    - C# (.NET and WinForms)
+    - C++
+
     - See [Personal Projects](#personal-projects)
+
 
   - Networking
     - Configuring networking equipment (e.g. switches, firewalls, VPNs, etc.)
@@ -58,10 +72,11 @@ BASH, PowerShell, SSH, VNC, Git CLI, Github
 
 ### Personal Projects
   - [Homelab](/p/my-homelab) 
-  - [Pi-controlled Potato Cannon](https://github.com/bpetterborg/potato-cannon)
+  - [Pi-controlled Potato Cannon](https://github.com/bpetterborg/potato_cannon)
     - I used a Raspberry Pi to precisely and remotely fire a CO2 potato cannon.
       See link for details and code.
   - [Discord bot that decodes and rebroadcasts P25 radio](/p/radio-monitor)
+  - [Broadcast automation utility](https://github.com/bpetterborg/obs_control)
 
 ### Additional Skills
   - Excel/Google Sheets
