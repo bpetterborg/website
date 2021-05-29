@@ -39,8 +39,6 @@ author = "Ben Petterborg"
     - Bash
       - Scripting tedious work
       - Automatically configuring and updating machines
-    - C# (.NET and WinForms)
-    - C++
 
     - See [Personal Projects](#personal-projects)
 
@@ -50,7 +48,9 @@ author = "Ben Petterborg"
     - Pulling and terminating Ethernet lines
 
 ### Tools
-Proxmox, Docker, Kubernetes, Rancher, Nginx, Apache, Zabbix,
+Visual Studio 2019,
+Proxmox, Docker, Kubernetes, Rancher, 
+Nginx, Apache, Zabbix,
 Matplotlib, Gpiozero,
 BASH, PowerShell, SSH, VNC, Git CLI, Github
 
