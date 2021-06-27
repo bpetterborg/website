@@ -15,7 +15,7 @@ author = "Ben Petterborg"
 ### Languages
   - Python - 1 year
   - C++ (Arduino/ESP32) - 1 year
-  - C# - 1 year
+  - Go - <1 year
   - Bash - 6+ years
   - HTML w/ CSS - 2+ years
 
@@ -67,7 +67,7 @@ BASH, PowerShell, SSH, VNC, Git CLI, Github
   - Civil Air Patrol
     - I am currently a Cadet in the Civil Air Patrol, the volunteer
       auxiliary of USAF. It is similar to JROTC.
-    - I am responsible for IT and communications equipment and training.
+    - I am responsible for both IT and radio equipment, as well as training.
   - Perrysburg High School Robotics Club
 
 ### Personal Projects
@@ -75,8 +75,7 @@ BASH, PowerShell, SSH, VNC, Git CLI, Github
   - [Pi-controlled Potato Cannon](https://github.com/bpetterborg/potato_cannon)
     - I used a Raspberry Pi to precisely and remotely fire a CO2 potato cannon.
       See link for details and code.
-  - [Discord bot that decodes and rebroadcasts P25 radio](/p/radio-monitor)
-  - [Broadcast automation utility](https://github.com/bpetterborg/obs_control)
+  - [Broadcast Automation Utility](https://github.com/bpetterborg/obs_control)
 
 ### Additional Skills
   - Excel/Google Sheets
