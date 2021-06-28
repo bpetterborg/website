@@ -15,7 +15,7 @@ author = "Ben Petterborg"
 ### Languages
   - Python - 1 year
   - C++ (Arduino/ESP32) - 1 year
-  - Go - <1 year
+  - JavaScript/TypeScript (NodeJS) - 1 year
   - Bash - 6+ years
   - HTML w/ CSS - 2+ years
 
