@@ -17,7 +17,7 @@ author = "Ben Petterborg"
   - C++ (Arduino/ESP32) - 1 year
   - JavaScript/TypeScript (NodeJS) - 1 year
   - Bash - 6+ years
-  - HTML w/ CSS - 2+ years
+  - HTML w/ Bootstrap CSS - 2+ years
 
 
 ### Experience
