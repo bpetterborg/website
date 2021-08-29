@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Ben Petterborg</title>
+    <link>https://ben-p.dev/post/</link>
+    <description>Recent content in Posts on Ben Petterborg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 May 2021 20:00:00 -0400</lastBuildDate><atom:link href="https://ben-p.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pull Images Directly from NOAA Weather Satellites</title>
+      <link>https://ben-p.dev/p/apt-reception/</link>
+      <pubDate>Wed, 12 May 2021 20:00:00 -0400</pubDate>
+      
+      <guid>https://ben-p.dev/p/apt-reception/</guid>
+      <description>Table of Contents  Introduction Getting Started Receiving Decoding What to do Next Additional Resources  Introduction NOAA has weather satellites that are easy to receive with basic and inexpensive equipment. This guide will show how to receive and decode the downlink of these satellites.
+Roscosmos also operates METEOR satellites, which are relatively easy to receive and decode, which can be done with the same hardware, however this guide will not detail how to do this.</description>
+    </item>
+    
+    <item>
+      <title>My Homelab</title>
+      <link>https://ben-p.dev/p/my-homelab/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ben-p.dev/p/my-homelab/</guid>
+      <description>Hardware   Servers
+ Dell R710 II  Dual Xeon X5670s 32GiB RAM      Networking
+  Switches
+ TP-Link TL-SG108E    Wireless APs
+ Linksys EA6900 Linksys RE6800      Software  R710 - Proxmox VE (Hypervisor)  OPNsense firewall Debian LXC  Docker      Workloads/Services   Proxmox VMs/LXCs
+ OPNsense firewall OpenMediaVault NAS Zabbix (Monitoring)    Docker</description>
+    </item>
+    
+    <item>
+      <title>Github Pages with Hugo</title>
+      <link>https://ben-p.dev/p/github-pages-hugo/</link>
+      <pubDate>Thu, 25 Mar 2021 18:53:44 -0400</pubDate>
+      
+      <guid>https://ben-p.dev/p/github-pages-hugo/</guid>
+      <description>Table of Contents  Introduction Getting Started Prepare your environment Building your site  Introduction I had a bit of difficulty setting up Hugo to work with Github Pages, so I decided to document how I was able to make it work.
+Getting Started This guide assumes you already have a Hugo site. If you do not, you can learn how to here.
+You will also need a Github Pages repo setup, these are pretty simple, and you can use this guide.</description>
+    </item>
+    
+  </channel>
+</rss>

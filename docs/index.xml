@@ -1,82 +1,240 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Ben Petterborg</title>
-    <link>https://www.ben-p.dev/</link>
-    <description>Recent content on Ben Petterborg</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>CC BY 4.0 CN</copyright>
-    <lastBuildDate>Wed, 12 May 2021 20:00:00 -0400</lastBuildDate>
-    
-        <atom:link href="https://www.ben-p.dev/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Pull Images Directly from NOAA Weather Satellites</title>
-      <link>https://www.ben-p.dev/p/wxsat/</link>
-      <pubDate>Wed, 12 May 2021 20:00:00 -0400</pubDate>
-      
-      <guid>https://www.ben-p.dev/p/wxsat/</guid>
-      <description>Table of Contents  Introduction Getting Started Receiving Decoding What to do Next Additional Resources  Introduction NOAA has weather satellites that are easy to receive with basic and inexpensive equipment. This guide will show how to receive and decode the downlink of these satellites.
-Roscosmos also operates METEOR satellites, which are relatively easy to receive and decode, which can be done with the same hardware, however this guide will not detail how to do this.</description>
-    </item>
-    
-    <item>
-      <title>P25 Radio Monitor</title>
-      <link>https://www.ben-p.dev/p/radio-monitor/</link>
-      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ben-p.dev/p/radio-monitor/</guid>
-      <description>Heads up This project is incomplete, while certain parts are functional, don&amp;rsquo;t expect it all to work. Content on this page may also change, as stuff is added and changed.
-Table of Contents  Introduction Commands For Civil Air Patrol Members  What it does This bot listens for P25-encoded radio traffic and rebroadcasts it over discord. This project what originally build for the Ohio Wing Civil Air Patrol&amp;rsquo;s Emergency Services, for squardons with less funding to be able to still monitor radio traffic.</description>
-    </item>
-    
-    <item>
-      <title>My Homelab</title>
-      <link>https://www.ben-p.dev/p/homelab/</link>
-      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ben-p.dev/p/homelab/</guid>
-      <description>Hardware   Servers
- Dell R710 II  Dual Xeon X5670s 32GiB RAM      Networking
-  Switches
- TP-Link TL-SG108E    Wireless APs
- Linksys EA6900 Linksys RE6800      Software  R710 - Proxmox VE (Hypervisor)  OPNsense firewall Debian LXC  Docker      Workloads/Services   Proxmox VMs/LXCs
- OPNsense firewall OpenMediaVault NAS Zabbix (Monitoring)    Docker</description>
-    </item>
-    
-    <item>
-      <title>Host Hugo w/ Github Pages</title>
-      <link>https://www.ben-p.dev/p/github-pages-hugo/</link>
-      <pubDate>Thu, 25 Mar 2021 18:53:44 -0400</pubDate>
-      
-      <guid>https://www.ben-p.dev/p/github-pages-hugo/</guid>
-      <description>Table of Contents  Introduction Getting Started Prepare your environment Building your site  Introduction I had a bit of difficulty setting up Hugo to work with Github Pages, so I decided to document how I was able to make it work.
-Getting Started This guide assumes you already have a Hugo site. If you do not, you can learn how to here.
-You will also need a Github Pages repo setup, these are pretty simple, and you can use this guide.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://www.ben-p.dev/about/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ben-p.dev/about/</guid>
-      <description>I’m a high school student studying software development, data science, systems administration, and other related stuff.
-What I do:
- Build, setup, and configure servers Install and configure networking equipment Manage hypervisors, and docker/k8s/rancher instances Create usable software Learn whatever technology is needed to complete a job  In my free time, I also do satellite reception, 3D printing, and other nerd stuff that you will see here.
-Thanks for reading!</description>
-    </item>
-    
-    <item>
-      <title>Resume</title>
-      <link>https://www.ben-p.dev/resume/</link>
-      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.ben-p.dev/resume/</guid>
-      <description>Qualifications  US Amateur Radio Technician&amp;rsquo;s License ECSI Adult, Child, &amp;amp; Infant CPR &amp;amp; AED, Standard First Aid FEMA IS100 FEMA IS700  Languages  Python - 1 year C++ (Arduino/ESP32) - 1 year C# - 1 year Bash - 6+ years HTML w/ CSS - 2+ years  Experience   Linux
- Strong experience in the command line Configuring permissions for users and groups Updating, configuring, remotely managing and repairing systems.</description>
-    </item>
-    
-  </channel>
+    <channel>
+        <title>Ben Petterborg</title>
+        <link>https://ben-p.dev/</link>
+        <description>Recent content on Ben Petterborg</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 12 May 2021 20:00:00 -0400</lastBuildDate><atom:link href="https://ben-p.dev/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Pull Images Directly from NOAA Weather Satellites</title>
+        <link>https://ben-p.dev/p/apt-reception/</link>
+        <pubDate>Wed, 12 May 2021 20:00:00 -0400</pubDate>
+        
+        <guid>https://ben-p.dev/p/apt-reception/</guid>
+        <description>&lt;img src="https://ben-p.dev/p/apt-reception/header.jpg" alt="Featured image of post Pull Images Directly from NOAA Weather Satellites" /&gt;&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#introduction&#34; &gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#getting-started&#34; &gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#receiving&#34; &gt;Receiving&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#decoding&#34; &gt;Decoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#what-to-do-next&#34; &gt;What to do Next&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#additional-resources&#34; &gt;Additional Resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;NOAA has weather satellites that are easy to receive with basic and inexpensive
+equipment. This guide will show how to receive and decode the downlink of these
+satellites.&lt;/p&gt;
+&lt;p&gt;Roscosmos also operates METEOR satellites, which are relatively easy to receive
+and decode, which can be done with the same hardware, however this guide will
+not detail how to do this.&lt;/p&gt;
+&lt;p&gt;We will be using NOAA-15, NOAA-18, and NOAA-19, on the APT downlink as these
+are analog FM with a λ = ~2.2 meters, which is very easy to work with.&lt;/p&gt;
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;p&gt;You will need an SDR program, like &lt;a class=&#34;link&#34; href=&#34;https://cubicsdr.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;CubicSDR&lt;/a&gt;
+(which I will be using for this), however other programs, such as
+&lt;a class=&#34;link&#34; href=&#34;https://gqrx.dk/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GQRX&lt;/a&gt;, &lt;a class=&#34;link&#34; href=&#34;https://airspy.com/download/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SDR#&lt;/a&gt;,
+&lt;a class=&#34;link&#34; href=&#34;https://github.com/AlexandreRouma/SDRPlusPlus&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SDR++&lt;/a&gt;,
+or &lt;a class=&#34;link&#34; href=&#34;https://batchdrake.github.io/SigDigger/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SigDigger&lt;/a&gt; will also work.&lt;/p&gt;
+&lt;p&gt;If you are using an Android phone or tablet, I recommend
+&lt;a class=&#34;link&#34; href=&#34;https://play.google.com/store/apps/details?id=com.mantz_it.rfanalyzer&amp;amp;hl=en_US&amp;amp;gl=US&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RF-Analyzer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You will also need a program to decode the audio. I will use
+&lt;a class=&#34;link&#34; href=&#34;https://noaa-apt.mbernardi.com.ar/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NOAA APT&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;p&gt;I recommend the
+&lt;a class=&#34;link&#34; href=&#34;https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RTL-SDR kit&lt;/a&gt;, it as a
+adjustable and portable dipole antenna, an RG-174 extension cable, and the
+dongle itself.&lt;/p&gt;
+&lt;p&gt;You will also need a laptop, an Android phone, or a tablet. Brighter screens
+are better since you will be outside.&lt;/p&gt;
+&lt;h2 id=&#34;receieving&#34;&gt;Receieving&lt;/h2&gt;
+&lt;p&gt;A few minutes before the satellite will be above, setup your antenna. Each
+element of the dipole should be ~53cm long, 120° apart, with &amp;lsquo;V&amp;rsquo; facing south.
+The center conductor of the coax should be connected to the element facing
+right. If it&amp;rsquo;s not, simply flip the antenna over.&lt;/p&gt;
+&lt;p&gt;Open CubicSDR and select
+RTL2832U, RTL-SDR, or something else that starts with &amp;lsquo;Realtek&amp;rsquo;. Tune your
+receiver to the appropriate satellite, per the table below.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Satellite&lt;/th&gt;
+&lt;th&gt;Freq. (MHz)&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;NOAA-15&lt;/td&gt;
+&lt;td&gt;137.61&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NOAA-18&lt;/td&gt;
+&lt;td&gt;137.91&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NOAA-19&lt;/td&gt;
+&lt;td&gt;137.1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Set the demodulator to WFM (Wide FM), and the receive bandwidth to ~40kHz, to
+account for doppler shift.&lt;/p&gt;
+&lt;p&gt;Under recording, set the path, and the squelch to &amp;lsquo;Record Always&amp;rsquo;. Begin the
+recording ~1 minute before the satellite will pass over. It&amp;rsquo;ll take ~15min, so
+have something to keep yourself occupied.&lt;/p&gt;
+&lt;p&gt;Once the satellite passes over the horizon and the signal fades away, you can
+go ahead and stop the recording.&lt;/p&gt;
+&lt;h2 id=&#34;decoding&#34;&gt;Decoding&lt;/h2&gt;
+&lt;p&gt;Open NOAA APT and open your file. You can skip through the rest of the menus,
+then save the image.&lt;/p&gt;
+&lt;p&gt;Congrats! You&amp;rsquo;ve pulled images directly from weather satellites in orbit!&lt;/p&gt;
+&lt;h2 id=&#34;what-to-do-next&#34;&gt;What to do Next&lt;/h2&gt;
+&lt;p&gt;If you enjoyed this, you may also want to try receiving METEOR, GOES, or HRPT.
+These both use digital downlinks, which are a bit harder to work with, however
+they provide much higher-resolution color imagery.&lt;/p&gt;
+&lt;p&gt;GOES satellites are in geostationary orbits, which allow them to provide &amp;lsquo;full-
+disk&amp;rsquo; (i.e. a picture of the whole earth).&lt;/p&gt;
+&lt;p&gt;Amateur satcom is a fun hobby and gives you bragging rights to say you&amp;rsquo;ve
+downloaded images directly off of weather satellites in orbit.&lt;/p&gt;
+&lt;h2 id=&#34;additional-resources&#34;&gt;Additional Resources&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://rtl-sdr.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RTL-SDR Blog&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>My Homelab</title>
+        <link>https://ben-p.dev/p/my-homelab/</link>
+        <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ben-p.dev/p/my-homelab/</guid>
+        <description>&lt;img src="https://ben-p.dev/p/my-homelab/header.jpg" alt="Featured image of post My Homelab" /&gt;&lt;h3 id=&#34;hardware&#34;&gt;Hardware&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Servers&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dell R710 II
+&lt;ul&gt;
+&lt;li&gt;Dual Xeon X5670s&lt;/li&gt;
+&lt;li&gt;32GiB RAM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Networking&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Switches&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;TP-Link TL-SG108E&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wireless APs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linksys EA6900&lt;/li&gt;
+&lt;li&gt;Linksys RE6800&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;R710 - Proxmox VE (Hypervisor)
+&lt;ul&gt;
+&lt;li&gt;OPNsense firewall&lt;/li&gt;
+&lt;li&gt;Debian LXC
+&lt;ul&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;workloadsservices&#34;&gt;Workloads/Services&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Proxmox VMs/LXCs&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OPNsense firewall&lt;/li&gt;
+&lt;li&gt;OpenMediaVault NAS&lt;/li&gt;
+&lt;li&gt;Zabbix (Monitoring)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Docker&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Home Assistant&lt;/li&gt;
+&lt;li&gt;NGINX Proxy Manager&lt;/li&gt;
+&lt;li&gt;Portainer&lt;/li&gt;
+&lt;li&gt;Heimdall (Dashboard of all services)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Other&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OctoPrint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Github Pages with Hugo</title>
+        <link>https://ben-p.dev/p/github-pages-hugo/</link>
+        <pubDate>Thu, 25 Mar 2021 18:53:44 -0400</pubDate>
+        
+        <guid>https://ben-p.dev/p/github-pages-hugo/</guid>
+        <description>&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#introduction&#34; &gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#getting-started&#34; &gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#prepare-your-environment&#34; &gt;Prepare your environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#building-your-site&#34; &gt;Building your site&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I had a bit of difficulty setting up Hugo to work with Github Pages,
+so I decided to document how I was able to make it work.&lt;/p&gt;
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;This guide assumes you already have a Hugo site. If you do not,
+you can learn how to &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You will also need a Github Pages repo setup, these are pretty simple,
+and you can use &lt;a class=&#34;link&#34; href=&#34;https://guides.github.com/features/pages/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this&lt;/a&gt; guide.&lt;/p&gt;
+&lt;p&gt;Both of these are pretty simple to setup, but if you have any questions,
+ask Google first, but if that doesn&amp;rsquo;t work, leave me an &lt;a class=&#34;link&#34; href=&#34;mailto:ben@ben-p.dev&#34; &gt;email&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;prepare-your-environment&#34;&gt;Prepare your environment&lt;/h2&gt;
+&lt;p&gt;After you&amp;rsquo;ve created your site repo, delete the contents. Once that&amp;rsquo;s done,
+head to wherever you wish to keep it on your local machine and clone it.&lt;/p&gt;
+&lt;p&gt;Once you&amp;rsquo;re done, &lt;code&gt;cd&lt;/code&gt; to it and create an empty file named &lt;code&gt;.nojekyll&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;touch .nojekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After that, go ahead and generate your site with Hugo. If you&amp;rsquo;ve already made your site and want to
+migrate to Github Pages, just copy the contents over to the new repo.&lt;/p&gt;
+&lt;p&gt;Now, we&amp;rsquo;ll need to edit the &lt;code&gt;config.toml&lt;/code&gt; to configure the site to be compatible with Github Pages.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-Bash&#34; data-lang=&#34;Bash&#34;&gt;vim config.toml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the following line, under the top set of variables&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-TOML&#34; data-lang=&#34;TOML&#34;&gt;&lt;span class=&#34;nx&#34;&gt;publishDir&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;docs&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Go to your Repo&amp;gt;Settings&amp;gt;Github Pages&amp;gt; and set &lt;code&gt;Source&lt;/code&gt; directory to &lt;code&gt;/docs&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;building-your-site&#34;&gt;Building your site&lt;/h2&gt;
+&lt;p&gt;Go to the folder where you have your site and run &lt;code&gt;hugo&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now that your site has been built, add all, commit, and push to Github.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
 </rss>
