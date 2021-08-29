@@ -1,6 +1,6 @@
 ---
 title: "3D Printing"
-description: "This is an example category"
+description: ""
 slug: "3d-printing"
 image: "3d_printer.jpg"
 style:
