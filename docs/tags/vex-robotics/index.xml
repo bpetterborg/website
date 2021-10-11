@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vex-robotics on Ben Petterborg</title>
+    <link>https://ben-p.dev/tags/vex-robotics/</link>
+    <description>Recent content in vex-robotics on Ben Petterborg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ben-p.dev/tags/vex-robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devlog: Vex-based Roomba</title>
+      <link>https://ben-p.dev/p/vex-vacuum/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ben-p.dev/p/vex-vacuum/</guid>
+      <description>Table of Contents  Introduction Hardware Software 10/10  Introduction I am building a roomba-like &amp;ldquo;vacuum&amp;rdquo; based on Vex hardware. It&amp;rsquo;s not really a vacuum, but a very strong magnet to pick up small pieces of metal off of the STEM lab floor.
+The point of this is to learn all sorts of technologies relating to robotics, but also to struture a large program.
+As far as the point of me logging this, it is more for myself.</description>
+    </item>
+    
+  </channel>
+</rss>

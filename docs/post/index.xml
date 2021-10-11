@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Ben Petterborg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 May 2021 20:00:00 -0400</lastBuildDate><atom:link href="https://ben-p.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ben-p.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devlog(s): Vex-based &#34;Roomba&#34;</title>
+      <link>https://ben-p.dev/p/vex-vacuum/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ben-p.dev/p/vex-vacuum/</guid>
+      <description>Table of Contents  Introduction Hardware Software 10/10  Introduction I am building a roomba-like &amp;ldquo;vacuum&amp;rdquo; based on Vex hardware. It&amp;rsquo;s not really a vacuum, but a very strong magnet to pick up small pieces of metal off of the STEM lab floor.
+The point of this is to learn all sorts of technologies relating to robotics, but also to struture a large program.
+As far as the point of me logging this, it is more for myself.</description>
+    </item>
+    
     <item>
       <title>Pull Images Directly from NOAA Weather Satellites</title>
       <link>https://ben-p.dev/p/apt-reception/</link>

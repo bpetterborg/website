@@ -6,7 +6,89 @@
         <description>Recent content on Ben Petterborg</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 12 May 2021 20:00:00 -0400</lastBuildDate><atom:link href="https://ben-p.dev/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ben-p.dev/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Devlog(s): Vex-based &#34;Roomba&#34;</title>
+        <link>https://ben-p.dev/p/vex-vacuum/</link>
+        <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://ben-p.dev/p/vex-vacuum/</guid>
+        <description>&lt;h1 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#introduction&#34; &gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#hardware&#34; &gt;Hardware&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#software&#34; &gt;Software&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;#10/10&#34; &gt;10/10&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I am building a roomba-like &amp;ldquo;vacuum&amp;rdquo; based on Vex hardware. It&amp;rsquo;s not really a
+vacuum, but a very strong magnet to pick up small pieces of metal off of the
+STEM lab floor.&lt;/p&gt;
+&lt;p&gt;The point of this is to learn all sorts of technologies relating to robotics,
+but also to struture a large program.&lt;/p&gt;
+&lt;p&gt;As far as the point of me logging this, it is more for myself. I will already
+be documenting this in a journal, so I may as well share my solutions with
+other people.&lt;/p&gt;
+&lt;h2 id=&#34;hardware&#34;&gt;Hardware&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ll add a diagram and pictures later, it is too much of a work-in-progress
+right now.&lt;/p&gt;
+&lt;h3 id=&#34;parts&#34;&gt;Parts&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ll update this list as I go, expect this to change. It is currently
+incomplete.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;2x Vex 393 Motor, with standard gearing&lt;/li&gt;
+&lt;li&gt;2x Vex MC29 motor controller&lt;/li&gt;
+&lt;li&gt;Raspberry Pi 3B&lt;/li&gt;
+&lt;li&gt;5V step-down converter&lt;/li&gt;
+&lt;li&gt;Vex 7.2V 3000mAH battery&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;how-its-all-connected&#34;&gt;How it&amp;rsquo;s all connected&lt;/h3&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;I&amp;rsquo;ll add a diagram later.&lt;/p&gt;
+&lt;h2 id=&#34;software&#34;&gt;Software&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Same thing here.&lt;/p&gt;
+&lt;p&gt;You can view code on
+&lt;a class=&#34;link&#34; href=&#34;https://github.com/bpetterborg/vex_vacuum&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;my github repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;The Raspberry Pi serves as the upper computer, and the Vex brain the lower
+computer. The Pi does more of the high-level work, such as mapping, image
+processing, and positioning. The Vex brain does more of the lower-level tasks
+such as getting data from the sensors (sonar, collision detection), and
+controlling the motors.&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;Due to the poor documentation of Vex&amp;rsquo;s hardware, I will be doing it solely on
+the RPi. It is less interesting but ehh, it&amp;rsquo;s easier.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll add some more details later, if you are &lt;em&gt;that&lt;/em&gt; interested, check the repo.&lt;/p&gt;
+&lt;h2 id=&#34;1010&#34;&gt;10/10&lt;/h2&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;current-progress&#34;&gt;Current Progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Started building the robot&lt;/li&gt;
+&lt;li&gt;Working on code
+&lt;ul&gt;
+&lt;li&gt;Motor control (motors.py)
+&lt;ul&gt;
+&lt;li&gt;Mostly finished&lt;/li&gt;
+&lt;li&gt;Unsure about interfacing with the MC29s, but it&amp;rsquo;s a good start.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tasks&#34;&gt;Tasks&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Finish building the robot&lt;/li&gt;
+&lt;li&gt;Figure out batteries
+&lt;ul&gt;
+&lt;li&gt;Get the stuff to wire them&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Finish motor control code&lt;/li&gt;
+&lt;li&gt;Test motor control code&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Pull Images Directly from NOAA Weather Satellites</title>
         <link>https://ben-p.dev/p/apt-reception/</link>
         <pubDate>Wed, 12 May 2021 20:00:00 -0400</pubDate>
