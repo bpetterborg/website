@@ -79,7 +79,7 @@ the RPi. It is less interesting but ehh, it's easier.
 I'll add some more details later, if you are *that* interested, check the repo.
 
 ## 10/10
-<!-- Add a picture of the robot here -->
+
 ### Current Progress
 - Started building the robot
 - Working on code
@@ -95,3 +95,17 @@ I'll add some more details later, if you are *that* interested, check the repo.
 - Finish motor control code
 - Test motor control code
 
+## 11/15	
+
+### Current Progress
+- Finalised hardware design mostly
+- Wired everything
+- Figure out how vex sonar sensors work
+- In progress of rewriting motor control library
+
+### Tasks
+- Add retaining clips to Dupont connectors
+- Continue rewriting motor control library
+
+### Notes
+- Will be focusing more on coding, specifically for the motors
