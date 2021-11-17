@@ -95,6 +95,7 @@ I'll add some more details later, if you are *that* interested, check the repo.
 - Finish motor control code
 - Test motor control code
 
+
 ## 11/15	
 
 ### Current Progress
@@ -109,3 +110,18 @@ I'll add some more details later, if you are *that* interested, check the repo.
 
 ### Notes
 - Will be focusing more on coding, specifically for the motors
+
+
+## 11/17
+
+### Current Progress
+- Continue work on motor control
+- Figured how to do motor configuration [(#6163e12)](https://github.com/bpetterborg/pi_vex_393/commit/6163e12a382989c79ed2783d0b1c3f74e182110f) and [(#4f87c66)](https://github.com/bpetterborg/pi_vex_393/commit/4f87c6644f9e28cfce13796882a5131a016911f4)
+	- Use a `*.json` file
+	- Make an attribute for the motor
+	- Put individual motor config variables in the motor attribute
+	- Put like-motor variables in a separate config to avoid repeating yourself
+
+### Tasks
+- Add in motor control functions from old code
+- Figure out how to get status messages in a sane way

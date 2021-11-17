@@ -102,6 +102,26 @@ the RPi. It is less interesting but ehh, it&amp;rsquo;s easier.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Will be focusing more on coding, specifically for the motors&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;1117&#34;&gt;11/17&lt;/h2&gt;
+&lt;h3 id=&#34;current-progress-2&#34;&gt;Current Progress&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Continue work on motor control&lt;/li&gt;
+&lt;li&gt;Figured how to do motor configuration &lt;a class=&#34;link&#34; href=&#34;https://github.com/bpetterborg/pi_vex_393/commit/6163e12a382989c79ed2783d0b1c3f74e182110f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(#6163e12)&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://github.com/bpetterborg/pi_vex_393/commit/4f87c6644f9e28cfce13796882a5131a016911f4&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(#4f87c66)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Use a &lt;code&gt;*.json&lt;/code&gt; file&lt;/li&gt;
+&lt;li&gt;Make an attribute for the motor&lt;/li&gt;
+&lt;li&gt;Put individual motor config variables in the motor attribute&lt;/li&gt;
+&lt;li&gt;Put like-motor variables in a separate config to avoid repeating yourself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;tasks-2&#34;&gt;Tasks&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Add in motor control functions from old code&lt;/li&gt;
+&lt;li&gt;Figure out how to get status messages in a sane way&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>
