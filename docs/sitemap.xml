@@ -3,33 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ben-p.dev/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/categories/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/categories/coding/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ben-p.dev/p/vex-vacuum/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/post/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/tags/python/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/tags/raspberry-pi/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/tags/rpi.gpio/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/tags/</loc>
-    <lastmod>2021-10-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ben-p.dev/p/pi-vex-393-exam/</loc>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/tags/vex/</loc>
+    <lastmod>2021-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ben-p.dev/p/vex-vacuum/</loc>
     <lastmod>2021-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ben-p.dev/tags/noaa-apt/</loc>

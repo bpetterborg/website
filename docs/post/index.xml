@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Ben Petterborg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ben-p.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ben-p.dev/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Things that I have learned about coding</title>
+      <link>https://ben-p.dev/p/pi-vex-393-exam/</link>
+      <pubDate>Mon, 29 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ben-p.dev/p/pi-vex-393-exam/</guid>
+      <description>Introduction For my Robotics exam, I studied Python. While I already know the language fairly well, I was able to significantly deepen my knowledge of and capability within the language. Not only did this project improve my technical ability, but more importantly and more significantly, my soft skills.
+The purpose of this library is to control Vex 393 motors using the MC29 motor controller with a Raspberry Pi, or other -like SBCs.</description>
+    </item>
+    
     <item>
       <title>Devlog(s): Vex-based &#34;Roomba&#34;</title>
       <link>https://ben-p.dev/p/vex-vacuum/</link>
