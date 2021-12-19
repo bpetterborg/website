@@ -3,7 +3,7 @@
 	font-family: 'Kosugi Maru';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/kosugimaru/v11/0nksC9PgP_wGh21A2KeqGiTvivz9iUCqJxZJNts-1j0eixkNHiGxxUEEixg.2.woff2) format('woff2');
+	src: url(../assets/fonts/Kosugi_Maru/KosugiMaru-Regular.ttf) format('truetype');
 	unicode-range: U+3000-303F, U+30a0-30ff, U+FF00-FFEF, U+4e00-9FAF ;
 }
 
@@ -12,10 +12,17 @@
 	font-family: 'Ubuntu';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://fonts.gstatic.com/s/ubuntu/v15/4iCs6KVjbNBYlgoKfw72nU6AFw.woff2) format('woff2');
+	src: url(../assets/fonts/Ubuntu/Ubuntu-Regular.ttf) format('truetype');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* code */
+@font-face {
+	font-family: 'JetBrains Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../assets/fonts/JetBrainsMono/JetBrainsMono-VariableFont_wght.ttf) format('truetype');
+}
 
 
 .lang_ja {
