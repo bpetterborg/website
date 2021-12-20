@@ -4,7 +4,7 @@
 	font-style: normal;
 	font-weight: 400;
 	src: url(../assets/fonts/Kosugi_Maru/KosugiMaru-Regular.ttf) format('truetype');
-	unicode-range: U+3000-303F, U+30a0-30ff, U+FF00-FFEF, U+4e00-9FAF ;
+	unicode-range: U+3000-303F, U+3040-309F, U+30A0-30FF, U+FF00-FFEF, U+4E00-9FAF ;
 }
 
 /* roman */
@@ -24,11 +24,6 @@
 	src: url(../assets/fonts/JetBrainsMono/JetBrainsMono-VariableFont_wght.ttf) format('truetype');
 }
 
-
-.lang_ja {
-	font-family: 'Kosugi Maru', !important;
-}
-
-.lang_en {
-	font-family: 'Ubuntu', !important;
+body {
+	font-family: 'Kosugi Maru', 'Ubuntu';
 }
