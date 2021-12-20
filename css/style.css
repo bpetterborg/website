@@ -5,12 +5,14 @@ body
 	color: #373b41;
 }
 
+
 .icon_links, .icon_links:visited, .icon_links:hover, .icon_links:active
 {
 	font-size: 20px;
 	color: #373b41;
 	text-decoration: none;
-	padding: 2px;
+	padding: 3px;
+
 }
 
 .site_links:link, .site_links:visited, .site_links:hover, .site_links:active
@@ -25,4 +27,80 @@ body
 	font-size: 17px;
 	color: #373b41;
 	text-decoration: none;
+}
+
+.bio
+{
+	font-size: 15px;
+	color: #969896;
+}
+
+.sidebar
+{
+	padding-top: 80%;
+	padding-bottom: 80%;
+}
+
+.view_more
+{
+	font-size: 14px;
+	background-color: #f7f7f7;
+	color: #373b41;
+	text-decoration: none;
+}
+
+
+@media screen and (prefers-color-scheme: dark) 
+{
+	body {
+		background-color: #1d1f21;
+		color: #c5c8c6;
+	}
+
+	.bio
+	{
+		color: #c5c8c6;
+	}
+
+	.view_more
+	{
+		font-size: 14px;
+		background-color: #373b41;
+		color: #f7f7f7;
+	}
+
+	.card
+	{
+		background-color: #282a2e;
+		color: #c5c8c6;
+	}
+
+	.list-group-item
+	{
+		background-color: #1d1f21;
+		color: #c5c8c6;
+		border-color: #282a2e;
+	}
+
+	.icon_links, .icon_links:visited, .icon_links:hover, .icon_links:active
+	{
+		font-size: 20px;
+		color: #c5c8c6;
+		text-decoration: none;
+		padding: 3px;
+	}
+
+	.site_links:link, .site_links:visited, .site_links:hover, .site_links:active
+	{
+		font-size: 17px;
+		color: #969896;
+		text-decoration: none;
+	}
+
+	.site_links_active
+	{
+		font-size: 17px;
+		color: #c5c8c6;
+		text-decoration: none;
+	}
 }
