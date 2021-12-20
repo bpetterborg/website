@@ -1,0 +1,11 @@
+{
+	"title" : "My Homelab",
+	"description" : "What I run on my Homelab.",
+	"hasImage" : true,
+	"imagePath" : "../posts/homelab/header.jpg",
+	"authors" : {
+		"name" : "Ben Petterborg"
+	},
+	"date" : "2021-05-27",
+	"lastModified" : "2021-12-20"
+}

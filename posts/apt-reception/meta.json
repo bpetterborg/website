@@ -1,0 +1,11 @@
+{
+	"title" : "Satellite Reception on Inexpensive Equipment",
+	"description" : "Receive data from NOAA weather satellites for ~30USD.",
+	"hasImage" : true,
+	"imagePath" : "../posts/apt-reception/header.jpg",
+	"authors" : {
+		"name" : "Ben Petterborg"
+	},
+	"date" : "2021-05-12",
+	"lastModified" : "2021-12-20"
+}
