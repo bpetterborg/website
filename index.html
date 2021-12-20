@@ -15,28 +15,33 @@
 </head>
 
 
-
 <body lang_en>
 	<div class="container-fluid">
 		<div class="row">	
 			<div class="col-sm-12 col-md-3 col-lg-2">
 				
 				<div class="p-3">
-					<div class="row">
-						<!-- pfp -->	
-						<p>
-							Put pfp here
-						</p>
+					
+					<div class="row" style="padding-top:50%">
+						<!-- pfp -->
+						<!-- slightly janky way to center this but i don't care-->
+						<div class="list-group-flush">	
+							<div class="list-group-item">
+								<i class="p-3">
+									<img src="https://avatars.githubusercontent.com/u/68480079?v=4" class="rounded-3" width="100" height="100">
+								</i>
+							</div>
+						</div>
 					</div>
 
-					<div class="row">
+					<div class="row mx-auto">
 						<!-- name -->
 						<h5>Ben Petterborg</h5>
 					</div>
 
-					<div class="row">
+					<div class="row mx-auto">
 						<!-- bio -->
-						<p>
+						<p class="bio">
 							Aspiring Software Developer
 						</p>
 					</div>
@@ -54,7 +59,7 @@
 
 							<div class=list-group-item>
 								<a href="posts/index.html" class="site_links">
-									<i class="fa-solid fa-rss p-2"></i>
+									<i class="fa-solid fa-square-rss p-2"></i>
 									Posts
 								</a>
 							</div>
@@ -74,6 +79,7 @@
 							</div>
 
 						</div>
+
 					</div>
 
 
@@ -111,7 +117,9 @@
 					
 
 					<h5 class="p-2">
-						Recent Posts
+						<strong>
+							Recent Posts
+						</strong>
 					</h5>
 
 					<!-- Make this generated based off of json metadata -->
@@ -165,7 +173,30 @@
 							</div>
 						</div>
 					</div>
-						
+				
+					<div class="p-1">
+						<div class="card" style="width:80%;">
+							<div class="card-body">
+								
+								<h5 class="card-title">
+									Post 4
+								</h5>
+								
+								<p class="card-text">
+									Some quick example text to build on the card title 
+									and make up the bulk of the card's content.
+								</p>
+								
+							</div>
+						</div>
+					</div>
+					
+					<div class="p-2">	
+						<a href="posts/index.html" class="badge rounded-pill view_more">
+							View Older Posts >>
+						</a>
+					</div>
+
 				</div>
 			</div>
 
