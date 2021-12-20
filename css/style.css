@@ -1,5 +1,28 @@
-body {
+body 
+{
 	font-size: 16px;
 	background-color: #FFF;
 	color: #373b41;
+}
+
+.icon_links, .icon_links:visited, .icon_links:hover, .icon_links:active
+{
+	font-size: 20px;
+	color: #373b41;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.site_links:link, .site_links:visited, .site_links:hover, .site_links:active
+{
+	font-size: 17px;
+	color: #969896;
+	text-decoration: none;
+}
+
+.site_links_active
+{
+	font-size: 17px;
+	color: #373b41;
+	text-decoration: none;
 }
