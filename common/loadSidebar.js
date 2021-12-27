@@ -6,6 +6,8 @@
 
 // thank you baao from stackoverflow
 var xhr = new XMLHttpRequest();
+var sidebarPath;
+
 
 xhr.onreadystatechange = function() 
 {
@@ -15,5 +17,14 @@ xhr.onreadystatechange = function()
     } 
 }
 
-xhr.open('get', '/html/sidebar-main.html', false);
+if (window.location.pathname == "/") 
+{
+    sidebarPath = "/html/sidebar-main.html"
+} 
+else 
+{
+    sidebarPath = "/html/sidebar.html"
+}
+
+xhr.open('get', sidebarPath, false);
 xhr.send();
