@@ -1,7 +1,11 @@
 {
 	"title": "ピッタボーゴ・ベン",
-	"home": "ホーム",
-	"blog": "ブログ",
-	"about": "About",
-	"contact": "Contact"
+	"name": "Ben Petterborg",
+	"bio": "Aspiring Software Developer",
+	
+	"buttonHome": "ホーム",
+	"buttonPosts": "ポスト",
+	"buttonProjects": "プロジェクト",
+	"buttonAbout": "僕について"
+
 }

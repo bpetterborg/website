@@ -1,7 +1,13 @@
 {
 	"title": "Ben Petterborg",
-	"home": "Home",
-	"blog": "Blog",
-	"about": "About",
-	"contact": "Contact"
+	"name": "Ben Petterborg",
+	"bio": "Aspiring Software Developer",
+	
+	"buttonHome": "Home",
+	"buttonPosts": "Posts",
+	"buttonProjects": "Projects",
+	"buttonAbout": "About"
+
+	
+
 }
