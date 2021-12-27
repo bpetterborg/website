@@ -5,9 +5,7 @@
  */
 
 // thank you baao from stackoverflow
-var xhr = typeof XMLHttpRequest != 'undefined' ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
-
-xhr.open('get', '/html/sidebar-main.html', true);
+var xhr = new XMLHttpRequest();
 
 xhr.onreadystatechange = function() 
 {
@@ -17,4 +15,5 @@ xhr.onreadystatechange = function()
     } 
 }
 
+xhr.open('get', '/html/sidebar-main.html', false);
 xhr.send();
