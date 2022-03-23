@@ -16,6 +16,8 @@ const thumbnailPaths = [
 	"/posts/homelab/thumbnail.html"
 ];
 
+//var thumbnailPaths = JSON.parse(fetch("thumbnailPaths.json"));	// implement this at some point
+
 // for every thumbnail in array, load it to the appropriate div
 for (let i = 0; i < thumbnailPaths.length; i++)
 {

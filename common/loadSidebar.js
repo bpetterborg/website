@@ -17,9 +17,10 @@ xhr.onreadystatechange = function()
     } 
 }
 
+// use this if sidebars are different for each page
 if (window.location.pathname == "/") 
 {
-    sidebarPath = "/html/sidebar-main.html"
+    sidebarPath = "/html/sidebar.html"
 } 
 else 
 {
