@@ -1,13 +1,6 @@
-/*
- *	Load the sidebar
- *	TODO: Add something to detect if the page is not the index page
- * 		  and change this links to be correct for that page
- */
+// load sidebar
 
-// thank you baao from stackoverflow
 var xhr = new XMLHttpRequest();
-var sidebarPath;
-
 
 xhr.onreadystatechange = function() 
 {
@@ -17,15 +10,5 @@ xhr.onreadystatechange = function()
     } 
 }
 
-// use this if sidebars are different for each page
-if (window.location.pathname == "/") 
-{
-    sidebarPath = "/html/sidebar.html"
-} 
-else 
-{
-    sidebarPath = "/html/sidebar.html"
-}
-
-xhr.open('get', sidebarPath, false);
+xhr.open('get', "/html/sidebar.html", false);
 xhr.send();

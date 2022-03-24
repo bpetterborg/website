@@ -15,6 +15,22 @@ body
 	overflow-x: hidden;
 }
 
+a, a:visited, a:hover, a:active
+{
+	color: #96CDFB;
+}
+
+.card
+{
+	border-radius: 15px;
+}
+
+.bg-warning
+{
+	color: #161320;
+	background-color: #F8BD96;
+}
+
 .icon_links, .icon_links:visited, .icon_links:hover, .icon_links:active
 {
 	font-size: 20px;
@@ -44,6 +60,7 @@ body
 	color: #161320;
 	text-decoration: none;
 	border-radius: 15px;
+	padding: 10px;
 }
 
 .post_title
@@ -113,6 +130,7 @@ body
 	{
 		background-color: #1e1e2e;
 		color: #d9e0ee;
+		border-radius: 15px;
 	}
 
 	.list-group-item
@@ -133,14 +151,14 @@ body
 	.site_links:link, .site_links:visited, .site_links:active
 	{
 		font-size: 17px;
-		color: #988ba2;
+		color: #d9e0ee;
 		text-decoration: none;
 	}
 
 	.site_links:hover
 	{
 		font-size: 17px;
-		color: #988ba2;
+		color: #d9e0ee;
 		text-decoration-color: #988ba2;
 		text-decoration-style: dashed;
 	}
