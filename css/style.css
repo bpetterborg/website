@@ -1,3 +1,11 @@
+/*
+ *	TODO:
+ *		- Make font sizing consisent and clean
+ * 		- Fix dark mode
+ *
+ */
+
+
 body 
 {
 	font-size: 16px;
@@ -50,6 +58,12 @@ body
 }
 
 .post_header
+{
+	font-size: large;
+	font-weight: bolder;
+}
+
+.posts_page_title
 {
 	font-size: large;
 	font-weight: bolder;
