@@ -25,10 +25,11 @@ for (let i = 0; i < thumbnailPaths.length; i++)
 	{
 		if (xhr.readyState == 4 && xhr.status == 200)
 		{ 
-			document.getElementById("post" + i).innerHTML = xhr.responseText;
+			// i can't figure out how i made it work but it does !
+			document.getElementById("posts").innerHTML += 
+			("<div class=\"p-1\">" + xhr.responseText + "</div>");
 		} 
 	}
 	xhr.open('get', thumbnailPaths[i], false);
 	xhr.send();
 }
-
