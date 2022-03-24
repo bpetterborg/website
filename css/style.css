@@ -2,39 +2,63 @@ body
 {
 	font-size: 16px;
 	background-color: #FFF;
-	color: #373b41;
+	color: #161320;
 	max-width: 100%;
 	overflow-x: hidden;
 }
 
-
 .icon_links, .icon_links:visited, .icon_links:hover, .icon_links:active
 {
 	font-size: 20px;
-	color: #373b41;
+	color: #161320;
 	text-decoration: none;
 	padding: 3px;
 
 }
 
-.site_links:link, .site_links:visited, .site_links:hover, .site_links:active
+.site_links:link, .site_links:visited, .site_links:active
 {
 	font-size: 17px;
-	color: #969896;
+	color: #161320;
 	text-decoration: none;
 }
 
-.site_links_active
+.site_links:hover
 {
 	font-size: 17px;
-	color: #373b41;
+	color: #161320;
+	text-decoration-style: dashed;
+	text-decoration-color: #575268;
+}
+
+.post_card:link, .post_card:visited, .post_card:hover, .post_card:active
+{
+	color: #161320;
 	text-decoration: none;
+	border-radius: 15px;
+}
+
+.post_title
+{
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.post_desc
+{
+	font-size: 17px;
+}
+
+.post_header
+{
+	font-size: large;
+	font-weight: bolder;
 }
 
 .bio
 {
 	font-size: 15px;
-	color: #969896;
+	color: #575268;
 }
 
 .sidebar
@@ -46,8 +70,8 @@ body
 .view_more
 {
 	font-size: 14px;
-	background-color: #f7f7f7;
-	color: #373b41;
+	background-color: #fff;
+	color: #161320;
 	text-decoration: none;
 }
 
@@ -92,22 +116,32 @@ body
 		padding: 3px;
 	}
 
-	.site_links:link, .site_links:visited, .site_links:hover, .site_links:active
+	.site_links:link, .site_links:visited, .site_links:active
 	{
 		font-size: 17px;
-		color: #c3bac6;
+		color: #988ba2;
 		text-decoration: none;
 	}
 
-	.site_links_active
+	.site_links:hover
 	{
 		font-size: 17px;
-		color: #c3bac6;
-		text-decoration: none;
+		color: #988ba2;
+		text-decoration-color: #988ba2;
+		text-decoration-style: dashed;
+	}
+	
+	.post_title
+	{
+		color: #d9e0ee;
+		font-size: 20px;
+		font-weight: bolder;
 	}
 
-	.a:link, .a:visited, .a:hover, .a:active
+	.post_desc
 	{
-		color: #f00
+		color: #988ba2;
+		font-size: 17px;
 	}
+
 }
