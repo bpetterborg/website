@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta title="Ben Petterborg">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="/assets/icons/fontawesome-free-6.0.0-beta3-web/css/all.css">
+	<link rel="stylesheet" type="text/css" href="/css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+
+<div class="row">
+	<div class="col-sm-12 col-md-3 col-lg-2">
+		<div id="sidebar"></div>
+	</div>
+
+	<div class="col-sm-12 col-md-9 col-lg-10">
+		<div class="p-5 w-75">
+		<div class="card shadow border-0 p-5">
+		
+
+		<h1 class="post_header">Pull Images Directly from NOAA Satellites</h1>
+
+
+		<h4>Introduction</h4>
+			<p>
+				NOAA has weather satellites that are easy to receive with basic and inexpensive equipment. This guide will show how to receive and decode the downlink of these satellites.
+			</p>
+
+			<p>
+				Roscosmos also operates METEOR satellites, which are relatively easy to receive and decode, which can be done with the same hardware, however this guide will not cover how to do this.
+			</p>
+
+			<p>
+				We will be using NOAA-15, NOAA-18, and NOAA-19, on the APT downlink as these are analog FM with a λ = ~2.2 meters, which is very easy to work with.
+			</p>
+
+		<h4>Getting Started</h4>	
+			<h5>Software</h5>
+				<p>
+					You will need an SDR program, like CubicSDR (which I will be using for this), however other programs, such as GQRX, SDR#, SDR++, or SigDigger will also work.
+				</p>
+
+				<p>
+					If you are using an Android phone or tablet, I recommend RF-Analyzer.
+				</p>
+
+				<p>
+					You will also need a program to decode the received audio. I will use <a href="https://noaa-apt.mbernardi.com.ar/">NOAA APT</a>.
+				</p>
+
+			<h5>Hardware</h5>	
+				<p>
+					I recommend the <a href="https://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/">RTL-SDR kit</a>, it as a adjustable and portable dipole antenna, an RG-174 extension cable, and the dongle itself.
+				</p>
+
+				<p>
+					You will also need a laptop, an Android phone, or a tablet. Brighter screens are better since you will be outside.
+				</p>
+
+		<h4>Reception</h4>
+			<p>
+				A few minutes before the satellite will be above, setup your antenna. Each element of the dipole should be ~53cm long, 120° apart, with 'V' facing south. The center conductor of the coax should be connected to the element facing right. If it's not, simply flip the antenna over.
+			</p>
+
+			<p>
+				Open CubicSDR and select RTL2832U, RTL-SDR, or something else that starts with 'Realtek'. Tune your receiver to the appropriate satellite, per the table below.
+			</p>
+
+		</div>
+	</div>
+</div>
+
+	<!-- Bootstrap stuff -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<script src="/common/loadSidebar.js"></script>
+
+</body>
+
