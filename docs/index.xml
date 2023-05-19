@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ben Petterborg</title>
+    <link>http://ben-p.dev/</link>
+    <description>Recent content on Ben Petterborg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="http://ben-p.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://ben-p.dev/about/</link>
+      <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://ben-p.dev/about/</guid>
+      <description>About Me # I’m a college student majoring in Software Engineering at Bowling Green State University. I&amp;rsquo;m also studying Japanese as my minor, and Linux as a hobby.
+What I do:
+ Write code Install and configure networking equipment Manage hypervisors, and docker/k8s/rancher instances Create usable software Learn whatever technology is needed to complete a job  In my free time, I volunteer with the Findlay Civil Air Patrol, in emergency services and as an instructor to youth.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://ben-p.dev/posts/github-pages-hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://ben-p.dev/posts/github-pages-hugo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
