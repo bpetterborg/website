@@ -1,1 +1,1 @@
-# content/posts/index.md
+# Posts
