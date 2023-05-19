@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Ben Petterborg</title>
-    <link>http://ben-p.dev/tags/</link>
+    <link>ben-p.dev/tags/</link>
     <description>Recent content in Tags on Ben Petterborg</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://ben-p.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="ben-p.dev/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

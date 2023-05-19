@@ -1,4 +1,4 @@
-baseURL = 'http://ben-p.dev'
+baseURL = 'ben-p.dev'
 languageCode = 'en-us'
 title = 'Ben Petterborg'
 publishDir = 'docs'

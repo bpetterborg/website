@@ -2,28 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ben Petterborg</title>
-    <link>http://ben-p.dev/</link>
+    <link>ben-p.dev/</link>
     <description>Recent content on Ben Petterborg</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://ben-p.dev/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="ben-p.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://ben-p.dev/about/</link>
+      <link>ben-p.dev/about/</link>
       <pubDate>Fri, 19 May 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://ben-p.dev/about/</guid>
+      <guid>ben-p.dev/about/</guid>
       <description>About Me # I’m a college student majoring in Software Engineering at Bowling Green State University. I&amp;rsquo;m also studying Japanese as my minor, and Linux as a hobby.
 What I do:
  Write code Install and configure networking equipment Manage hypervisors, and docker/k8s/rancher instances Create usable software Learn whatever technology is needed to complete a job  In my free time, I volunteer with the Findlay Civil Air Patrol, in emergency services and as an instructor to youth.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>http://ben-p.dev/posts/github-pages-hugo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Github Pages with Hugo</title>
+      <link>ben-p.dev/posts/github-pages-hugo/</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://ben-p.dev/posts/github-pages-hugo/</guid>
-      <description></description>
+      <guid>ben-p.dev/posts/github-pages-hugo/</guid>
+      <description>Table of Contents #  Introduction Getting Started Prepare your environment Building your site  Introduction # I had a bit of difficulty setting up Hugo to work with Github Pages, so I decided to document how I was able to make it work.
+Getting Started # This guide assumes you already have a Hugo site. If you do not, you can learn how to here.
+You will also need a Github Pages repo setup, these are pretty simple, and you can use this guide.</description>
     </item>
     
   </channel>
